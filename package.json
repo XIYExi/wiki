@@ -2,7 +2,7 @@
   "private": true,
   "name": "dumi-app",
   "scripts": {
-    "start": "dumi dev",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && dumi dev",
     "build": "dumi build",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
   },
